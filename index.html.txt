@@ -1,0 +1,660 @@
+<html lang="en" class="scroll-smooth"><head><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexis de Lécluse - ENSEEIHT Digital Sciences Portfolio</title>
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <meta name="description" content="Portfolio of Alexis de Lécluse, ENSEEIHT Digital Sciences student. Explore my engineering projects, international experiences, and career goals.">
+    <meta property="og:title" content="Alexis de Lécluse – ENSEEIHT Digital Sciences Portfolio">
+    <meta property="og:description" content="Engineering projects, international mobility, civic engagement – discover the portfolio of Alexis de Lécluse, ENSEEIHT student.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/photo-alexis.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alexis de Lécluse – Portfolio">
+    <meta name="twitter:description" content="Engineering projects, international mobility, civic engagement – discover the portfolio of Alexis de Lécluse.">
+    <link rel="stylesheet" href="assets/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&amp;family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@0.303.0/dist/umd/lucide.min.js"></script>
+</head>
+<body class="antialiased">
+
+    <header class="bg-white/95 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-900 tracking-tight font-display">
+                Alexis de Lécluse
+            </a>
+            <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
+                <a href="#" class="text-gray-600 hover:text-red-600 transition-colors">Welcome</a>
+                <a href="#engineering" class="text-gray-600 hover:text-red-600 transition-colors">Engineering</a>
+                <a href="#career" class="text-gray-600 hover:text-red-600 transition-colors">Career</a>
+                <a href="#mobility" class="text-gray-600 hover:text-red-600 transition-colors">Mobility</a>
+                <a href="#engagement" class="text-gray-600 hover:text-red-600 transition-colors">Engagement</a>
+                <a href="#activities" class="text-gray-600 hover:text-red-600 transition-colors">Activities</a>
+                <a href="#contact" class="text-gray-600 hover:text-red-600 transition-colors">Contact</a>
+                <a href="index-fr.html" class="font-semibold text-red-600 border border-red-600 px-3 py-0.5 rounded-full hover:bg-red-600 hover:text-white transition-colors text-sm">FR</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none" aria-label="Open menu">
+                <svg id="icon-burger" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="md:hidden border-b border-gray-200">
+            <div class="px-6 pb-4 pt-2 space-y-2">
+                <a href="#" class="block text-gray-600 hover:text-red-600">Welcome</a>
+                <a href="#engineering" class="block text-gray-600 hover:text-red-600">Engineering</a>
+                <a href="#career" class="block text-gray-600 hover:text-red-600">Career</a>
+                <a href="#mobility" class="block text-gray-600 hover:text-red-600">Mobility</a>
+                <a href="#engagement" class="block text-gray-600 hover:text-red-600">Engagement</a>
+                <a href="#activities" class="block text-gray-600 hover:text-red-600">Activities</a>
+                <a href="#contact" class="block text-gray-600 hover:text-red-600">Contact</a>
+                <a href="index-fr.html" class="block font-semibold text-red-600 hover:text-red-800">Version française</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Welcome -->
+        <section id="welcome" class="hero-split">
+            <div class="diagonal-divider"></div>
+
+            <div class="hero-text-side">
+                <div class="max-w-sm">
+                    <h1 class="hero-text-name font-display text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 leading-tight">
+                        Alexis<br>de Lécluse
+                    </h1>
+                    <p class="hero-text-desc text-gray-500 text-lg mt-5 leading-relaxed">
+                        Engineering student at ENSEEIHT, bridging the gap between computer vision research and edge deployment.
+                    </p>
+                    <div class="hero-text-meta mt-8 space-y-3 text-sm">
+                        <div class="flex items-center gap-3 text-gray-400">
+                            <div class="w-1.5 h-1.5 rounded-full bg-red-500"></div>
+                            <span>Embedded AI &amp; Computer Vision</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-gray-400">
+                            <div class="w-1.5 h-1.5 rounded-full bg-red-500"></div>
+                            <span>ENSEEIHT, Toulouse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-photo-side">
+                <div class="photo-shadow"></div>
+                <div class="photo-frame">
+                    <img src="./assets/photo-alexis.jpg" alt="Portrait of Alexis de Lécluse, ENSEEIHT Digital Sciences student">
+                    <div class="photo-scan"></div>
+                    <div class="focus-bracket"><span></span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Engineering -->
+        <section id="engineering" class="py-16 md:py-24 bg-gray-50 fade-in-section is-visible">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Engineering</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Projects and skills from my Digital Sciences curriculum.</p>
+
+                <div class="max-w-6xl mx-auto mb-16">
+                    <h3 class="font-display text-2xl font-bold text-gray-900 mb-10 text-center">Skills</h3>
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-6 sm:gap-x-10 lg:gap-x-14 gap-y-12 justify-items-center sm:justify-items-start">
+
+                        <div>
+                            <h4 class="text-sm font-semibold text-gray-400 mb-5 pb-2 border-b border-gray-200">Languages</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-6 h-6 flex-shrink-0" alt="Python">
+                                    <span class="text-sm text-gray-700">Python</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="w-6 h-6 flex-shrink-0" alt="C++">
+                                    <span class="text-sm text-gray-700">C++ / Arduino</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="w-6 h-6 flex-shrink-0" alt="Java">
+                                    <span class="text-sm text-gray-700">Java</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="w-6 h-6 flex-shrink-0" alt="SQL">
+                                    <span class="text-sm text-gray-700">SQL</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <div class="w-6 h-6 flex-shrink-0 flex items-center justify-center bg-gray-800 rounded text-[10px] font-bold text-white leading-none">Ada</div>
+                                    <span class="text-sm text-gray-700">Ada</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="text-sm font-semibold text-gray-400 mb-5 pb-2 border-b border-gray-200">Data Processing</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" class="w-6 h-6 flex-shrink-0" alt="Matlab">
+                                    <span class="text-sm text-gray-700">Matlab</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" class="w-6 h-6 flex-shrink-0" alt="NumPy">
+                                    <span class="text-sm text-gray-700">NumPy</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" class="w-6 h-6 flex-shrink-0" alt="Pandas">
+                                    <span class="text-sm text-gray-700">Pandas</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" class="w-6 h-6 flex-shrink-0" alt="Scikit-learn">
+                                    <span class="text-sm text-gray-700">Scikit-learn</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" class="w-6 h-6 flex-shrink-0" alt="PyTorch">
+                                    <span class="text-sm text-gray-700">PyTorch</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="text-sm font-semibold text-gray-400 mb-5 pb-2 border-b border-gray-200">Tools &amp; Systems</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" class="w-6 h-6 flex-shrink-0" alt="Windows">
+                                    <span class="text-sm text-gray-700">Windows</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="w-6 h-6 flex-shrink-0" alt="Linux">
+                                    <span class="text-sm text-gray-700">Linux</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-6 h-6 flex-shrink-0" alt="Git">
+                                    <span class="text-sm text-gray-700">Git</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/claude/2D2D2D" class="w-6 h-6 flex-shrink-0" alt="Claude Code">
+                                    <span class="text-sm text-gray-700">Claude Code</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/githubcopilot/2D2D2D" class="w-6 h-6 flex-shrink-0" alt="GitHub Copilot">
+                                    <span class="text-sm text-gray-700">GitHub Copilot</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="text-sm font-semibold text-gray-400 mb-5 pb-2 border-b border-gray-200">Soft Skills</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" class="lucide lucide-users w-6 h-6 flex-shrink-0 text-gray-400"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                    <span class="text-sm text-gray-700">Teamwork</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="clipboard-list" class="lucide lucide-clipboard-list w-6 h-6 flex-shrink-0 text-gray-400"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><path d="M12 11h4"></path><path d="M12 16h4"></path><path d="M8 11h.01"></path><path d="M8 16h.01"></path></svg>
+                                    <span class="text-sm text-gray-700">Project Management</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="lightbulb" class="lucide lucide-lightbulb w-6 h-6 flex-shrink-0 text-gray-400"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg>
+                                    <span class="text-sm text-gray-700">Creativity</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="puzzle" class="lucide lucide-puzzle w-6 h-6 flex-shrink-0 text-gray-400"><path d="M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 1-.837.276c-.47-.07-.802-.48-.968-.925a2.501 2.501 0 1 0-3.214 3.214c.446.166.855.497.925.968a.979.979 0 0 1-.276.837l-1.61 1.61a2.404 2.404 0 0 1-1.705.707 2.402 2.402 0 0 1-1.704-.706l-1.568-1.568a1.026 1.026 0 0 0-.877-.29c-.493.074-.84.504-1.02.968a2.5 2.5 0 1 1-3.237-3.237c.464-.18.894-.527.967-1.02a1.026 1.026 0 0 0-.289-.877l-1.568-1.568A2.402 2.402 0 0 1 1.998 12c0-.617.236-1.234.706-1.704L4.23 8.77c.24-.24.581-.353.917-.303.515.077.877.528 1.073 1.01a2.5 2.5 0 1 0 3.259-3.259c-.482-.196-.933-.558-1.01-1.073-.05-.336.062-.676.303-.917l1.525-1.525A2.402 2.402 0 0 1 12 1.998c.617 0 1.234.236 1.704.706l1.568 1.568c.23.23.556.338.877.29.493-.074.84-.504 1.02-.968a2.5 2.5 0 1 1 3.237 3.237c-.464.18-.894.527-.967 1.02Z"></path></svg>
+                                    <span class="text-sm text-gray-700">Problem Solving</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="refresh-cw" class="lucide lucide-refresh-cw w-6 h-6 flex-shrink-0 text-gray-400"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></svg>
+                                    <span class="text-sm text-gray-700">Adaptability</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <h3 class="font-display text-2xl font-bold text-gray-900 mt-16 mb-8 text-center">Projects</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+                    <!-- TrackMyApps -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet_trackmyapps.png" alt="TrackMyApps dashboard thumbnail" class="w-full h-48 object-contain bg-gray-100">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">TrackMyApps</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                TrackMyApps is a SaaS application designed to help students centralize and track internship, apprenticeship, and job applications. It brings offers, companies, documents, reminders, and follow-up exchanges into a single workspace to make the application process clearer and more efficient. The backend is built with Node.js, Express, TypeScript, Prisma, and PostgreSQL, while the frontend uses React, TypeScript, Vite, Tailwind CSS, and Shadcn/ui.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Node.js</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Express</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">TypeScript</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Prisma</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">PostgreSQL</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">React</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Vite</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Tailwind CSS</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Shadcn/ui</span>
+                            </div>
+                            <div class="mt-6 flex justify-center">
+                                <a href="https://track-myapps.vercel.app/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 font-medium text-sm py-2.5 px-8 rounded-lg transition-colors">
+                                    Visit TrackMyApps
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mass Creator -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet_masscreator.png" alt="Mass Creator web application thumbnail" class="w-full h-48 object-contain bg-gray-100">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Mass Creator</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                Commissioned by the Toulouse Student Parish, Mass Creator is a modern web app built to help parishes and liturgy teams prepare celebrations. It centralizes a song library, lets users compose masses in a few clicks for each liturgical moment, and enables easy sharing through a public link. With advanced search, sheet music import, and AI-assisted analysis, Mass Creator simplifies music planning and saves valuable time for choir leaders and worship teams.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Web App</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Liturgy Planning</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Advanced Search</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Sheet Music Import</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">AI-assisted Analysis</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Public Sharing</span>
+                            </div>
+                            <div class="mt-6 flex justify-center">
+                                <a href="https://mass-creator.vercel.app/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 font-medium text-sm py-2.5 px-8 rounded-lg transition-colors">
+                                    Visit Mass Creator
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Financial Prediction Model -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet-xgboost.jpg" alt="Financial Prediction Model Thumbnail" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Financial Prediction Model</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                Development of a machine learning model to predict the evolution of stock market indices. The project involved data collection, feature engineering, and training several models (Random Forest, XGBoost) to compare their performance in forecasting market trends.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Python</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">RandomForest</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">XGBoost</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Scikit-learn</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Network Router Simulation -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet-routeur.jpg" alt="Network Router Simulation Thumbnail" class="w-full h-48 object-contain bg-gray-100">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Network Router Simulation</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                Complete software modelling of a network router in Ada: queuing, routing, traffic management, and cache handling. The project was structured using modular design principles, with chained data structures and trees to simulate realistic packet routing behaviour.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Ada</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Data Structures</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Networking</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Modular Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Solar Tracker -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet_arduino.jpg" alt="Solar Tracker Thumbnail" class="w-full h-48 object-contain bg-gray-100">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Solar Tracker (Arduino)</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                A solar tracker project carried out at the end of preparatory classes: the objective is to orient a solar panel towards the most powerful light source around the tracker, with two degrees of freedom. The orientation is controlled by an Arduino board, commanding two servo motors, based on data from four photoresistors placed with the solar panel.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Collaboration</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Arduino</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">C++</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Laser Cutting</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Google Calendar Clone -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet_agenda.png" alt="Google Calendar Clone Thumbnail" class="w-full h-48 object-contain">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Google Calendar Clone</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                Creation of a web app based on the principle of Google Calendar: ability to manage a schedule with features like adding or deleting events, choosing slot colors, event types... All synchronized online, allowing multiple devices to access the same calendar. This allowed me to familiarize myself with Google's Firebase tool for managing a database in the cloud.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">HTML</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">CSS</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">JavaScript</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Career -->
+        <section id="career" class="py-16 md:py-24 bg-white fade-in-section is-visible">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Career</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Professional documents, goals, and inspirations.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-2.5 sm:gap-4 justify-center items-center mb-16">
+                    <a href="./assets/CV_Alexis_de_Lecluse_EN.pdf" download="" class="bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-sm text-sm sm:text-base w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="download" class="lucide lucide-download w-4 h-4 sm:w-5 sm:h-5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg>
+                        <span>Download CV (English)</span>
+                    </a>
+                    <a href="./assets/CV_Alexis_de_Lecluse_FR.pdf" download="" class="bg-gray-700 hover:bg-gray-800 text-white font-medium py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-sm text-sm sm:text-base w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="download" class="lucide lucide-download w-4 h-4 sm:w-5 sm:h-5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg>
+                        <span>Download CV (French)</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/alexis-de-l%C3%A9cluse-3b9436353/" target="_blank" rel="noopener noreferrer" class="bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-sm text-sm sm:text-base w-full sm:w-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin w-4 h-4 sm:w-5 sm:h-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                </div>
+
+                <h3 class="font-display text-2xl font-bold text-gray-900 mb-6 text-center">Past Experience</h3>
+                <div class="max-w-2xl mx-auto bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden mb-16">
+                    <div class="p-4 sm:p-6">
+                        <!-- Delair -->
+                        <div class="flex items-start gap-3 sm:gap-4 mb-2">
+                            <div class="flex-shrink-0">
+                                <img src="https://www.google.com/s2/favicons?domain=delair.aero&amp;sz=64" alt="Delair" class="w-12 h-12 rounded-lg object-contain border border-gray-100 p-1">
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1">
+                                    <div>
+                                        <h4 class="text-base sm:text-lg font-semibold text-gray-900">Embedded AI Engineer Internship</h4>
+                                        <p class="text-sm font-medium text-red-600">Delair, Labège, Occitanie</p>
+                                    </div>
+                                    <span class="text-sm text-gray-400 shrink-0">Jun–Jul 2026</span>
+                                </div>
+                                <p class="text-gray-700 leading-relaxed mb-3 text-sm text-justify">
+                                    Benchmarking of YOLO-type vision models on various NPUs (Pi AI camera and iMX95):
+                                </p>
+                                <ul class="list-disc list-inside text-gray-700 space-y-1.5 ml-2 text-sm">
+                                    <li><strong>YOLOv8/v11 Model Optimization:</strong> fine-tuning and INT8 quantization</li>
+                                    <li><strong>Graph Surgery:</strong> modifying YOLOv8n to maximize performance on iMX95 (36 FPS)</li>
+                                    <li><strong>Embedded Linux:</strong> Yocto-based custom OS compilation</li>
+                                    <li><strong>Real-time Monitoring:</strong> FPS, NPU latency, CPU load, temperature — modular architecture</li>
+                                </ul>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Edge AI</span>
+                                    <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Computer Vision</span>
+                                    <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Embedded Systems</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <!-- Lynred -->
+                        <div class="flex items-start gap-3 sm:gap-4 mb-2">
+                            <div class="flex-shrink-0">
+                                <img src="https://www.google.com/s2/favicons?domain=lynred.com&amp;sz=64" alt="Lynred" class="w-12 h-12 rounded-lg object-contain border border-gray-100 p-1">
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1">
+                                    <div>
+                                        <h4 class="text-base sm:text-lg font-semibold text-gray-900">Worker Internship</h4>
+                                        <p class="text-sm font-medium text-red-600">Lynred, Grenoble</p>
+                                    </div>
+                                    <span class="text-sm text-gray-400 shrink-0">May–Jun 2025</span>
+                                </div>
+                                <p class="text-gray-700 leading-relaxed text-sm text-justify">
+                                    Internship completed at the end of my two years in Prépa INP at Lynred, European leader in infrared sensors, main supplier to Safran and Thales. I was a cleanroom operator in the packaging department (sensor assembly). I was able to discover how a company operates, as well as the role of engineers and operators in an industrial production context.
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <!-- Librairie Agapè -->
+                        <div class="flex items-start gap-3 sm:gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 rounded-lg bg-gray-800 text-white text-xl font-bold flex items-center justify-center">A</div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
+                                    <div>
+                                        <h4 class="text-base sm:text-lg font-semibold text-gray-900">Observation Internship</h4>
+                                        <p class="text-sm font-medium text-red-600">Librairie Agapè, Orléans</p>
+                                    </div>
+                                    <span class="text-sm text-gray-400 shrink-0">Dec 2019</span>
+                                </div>
+                                <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1 text-sm">
+                                    <li>Discovery of business operations</li>
+                                    <li>Receiving orders</li>
+                                    <li>Sales</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Role Models -->
+                <div class="max-w-6xl mx-auto">
+                    <h3 class="font-display text-2xl font-bold text-gray-900 mb-6 text-center">Role Models</h3>
+                    <p class="text-gray-500 mb-8 text-center max-w-2xl mx-auto">Analysis of 3 inspiring profiles and 3 potential mobility projects.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+
+                        <button class="role-model-card bg-white border border-gray-200 rounded-xl p-6 shadow-sm text-left w-full hover:shadow-lg transition-shadow duration-300 focus:outline-none focus:ring-2 focus:ring-red-300" aria-label="View Laurent FAINSIN's profile – Applied Science Engineer at Mistral AI" data-title="Laurent FAINSIN - Applied Science Engineer" data-profile="Laurent FAINSIN is an Applied Science Engineer at Mistral AI. He is a graduate engineer from ENSEEIHT (Master's degree, Computer Science). His career shows a rapid trajectory in high-level AI roles, moving from internships at IRIT and Safran to an ML Engineer role at Finegrain, and now to his current position at Mistral AI." data-interest="Laurent's profile is highly inspiring as he represents a top-tier path for an ENSEEIHT Computer Science graduate. His journey directly into ML research and then to Mistral AI—one of the most prominent AI companies—demonstrates the high value of the N7 degree in the field. His interests in Machine Learning and Computer Graphics align perfectly with my own." data-image="assets/laurent_fainsin.jpeg">
+                            <img src="assets/laurent_fainsin.jpeg" alt="Laurent FAINSIN, Applied Science Engineer at Mistral AI" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-gray-100 object-cover">
+                            <h4 class="font-display text-lg font-semibold text-gray-900 text-center">Laurent FAINSIN</h4>
+                            <p class="text-gray-500 mb-3 text-sm text-center">Applied Science Engineer, Mistral AI</p>
+                            <ul class="list-disc list-inside space-y-1 text-gray-600 text-sm">
+                                <li>ENSEEIHT (N7) Graduate</li>
+                                <li>Specialized in ML &amp; AI</li>
+                            </ul>
+                        </button>
+
+                        <button class="role-model-card bg-white border border-gray-200 rounded-xl p-6 shadow-sm text-left w-full hover:shadow-lg transition-shadow duration-300 focus:outline-none focus:ring-2 focus:ring-red-300" aria-label="View Pierre BERJON's profile – Data Scientist at Airbus" data-title="Pierre BERJON - Data Scientist" data-profile="Pierre BERJON is a Data Scientist at Airbus, specializing in Computer Vision. He holds a dual degree from ENSEEIHT (Master of Engineering &amp; Specialized Master in AI). His career shows a clear progression at Airbus, starting as an intern, then advancing to R&amp;D Machine Learning Expert (Satellite Imagery) before his current role." data-interest="Pierre's profile is a perfect example of a successful post-ENSEEIHT (N7) career in the AI/Digital Sciences field. His career shows a direct and successful trajectory from an N7 degree to a highly technical position (Computer Vision) at a major local company (Airbus). This is a trajectory I am aiming for, combining my academic specialization with concrete industrial application." data-image="assets/pierre_berjon.jpeg">
+                            <img src="assets/pierre_berjon.jpeg" alt="Pierre BERJON, Data Scientist – Computer Vision at Airbus" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-gray-100 object-cover">
+                            <h4 class="font-display text-lg font-semibold text-gray-900 text-center">Pierre BERJON</h4>
+                            <p class="text-gray-500 mb-3 text-sm text-center">Data Scientist, Computer Vision — Airbus</p>
+                            <ul class="list-disc list-inside space-y-1 text-gray-600 text-sm">
+                                <li>ENSEEIHT (N7) Graduate</li>
+                                <li>Specialized in AI &amp; Deep Learning</li>
+                            </ul>
+                        </button>
+
+                        <button class="role-model-card bg-white border border-gray-200 rounded-xl p-6 shadow-sm text-left w-full hover:shadow-lg transition-shadow duration-300 focus:outline-none focus:ring-2 focus:ring-red-300" aria-label="View Clémence Lanfranchi's profile – AI Scientist at Mistral AI" data-title="Clémence Lanfranchi - AI Scientist" data-profile="Clémence Lanfranchi is an AI Scientist at Mistral AI. Her academic background is exceptional, featuring a 'Diplôme d'ingénieur' from École Polytechnique and a Master's degree in Data Science from ETH Zürich. Her career includes significant R&amp;D experience at Oracle Labs and research-focused roles during her studies, such as her Master's Thesis at ETH and a research project with DS3Lab/Ebay." data-interest="Clémence's profile is a powerful model for combining a prestigious French engineering degree (Polytechnique) with high-level international specialization (ETH Zürich). Her mobility to Switzerland for her Master's degree clearly paved the way for top-tier R&amp;D roles at Oracle and now Mistral AI. This 'French Grande École + international Master's' path is a highly effective strategy that I will strongly consider for my own." data-image="assets/clemence_lanfranchi.jpeg">
+                            <img src="assets/clemence_lanfranchi.jpeg" alt="Clémence Lanfranchi, AI Scientist at Mistral AI" class="w-16 h-16 rounded-full mx-auto mb-4 border-2 border-gray-100 object-cover">
+                            <h4 class="font-display text-lg font-semibold text-gray-900 text-center">Clémence Lanfranchi</h4>
+                            <p class="text-gray-500 mb-3 text-sm text-center">AI Scientist, Mistral AI</p>
+                            <ul class="list-disc list-inside space-y-1 text-gray-600 text-sm">
+                                <li>École Polytechnique &amp; ETH Zürich Graduate</li>
+                                <li>Mobility: Master's in Switzerland</li>
+                            </ul>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobility -->
+        <section id="mobility" class="py-16 md:py-24 bg-gray-50 fade-in-section is-visible">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Mobility</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Language skills and international aspirations.</p>
+
+                <div class="space-y-10">
+                    <div>
+                        <div class="flex items-center gap-3 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="languages" class="lucide lucide-languages w-5 h-5 text-red-600 flex-shrink-0"><path d="m5 8 6 6"></path><path d="m4 14 6-6 2-3"></path><path d="M2 5h12"></path><path d="M7 2h1"></path><path d="m22 22-5-10-5 10"></path><path d="M14 18h6"></path></svg>
+                            <h3 class="font-display text-xl font-semibold text-gray-900">Languages</h3>
+                        </div>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 ml-1">
+                            <li><strong>English:</strong> C1 Level — Ready for mobility.</li>
+                            <li><strong>German:</strong> B1 Level — Solid knowledge.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="plane" class="lucide lucide-plane w-5 h-5 text-red-600 flex-shrink-0"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg>
+                            <h3 class="font-display text-xl font-semibold text-gray-900">Mobility Plans</h3>
+                        </div>
+                        <div class="space-y-3">
+                            <p class="text-gray-700 leading-relaxed text-justify">
+                                My main goal is to complete a semester or a gap year abroad to deepen my skills in data science and artificial intelligence. I am particularly drawn to the North American ecosystem, which is recognized for its academic excellence and dynamic innovation.
+                            </p>
+                            <p class="text-gray-700 leading-relaxed text-justify">
+                                <strong>Target Destinations:</strong> I am primarily targeting universities in the <strong>United States</strong> and <strong>Canada</strong> (especially Quebec) that offer cutting-edge programs in AI, Machine Learning, and Natural Language Processing (NLP).
+                            </p>
+                            <p class="text-gray-700 leading-relaxed text-justify">
+                                This experience would be the ideal opportunity not only to acquire high-level technical expertise but also to immerse myself in a different research and development culture and perfect my English in a professional and academic context.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Engagement -->
+        <section id="engagement" class="py-16 md:py-24 bg-white fade-in-section is-visible">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Engagement</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Community and civic involvement.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="compass" class="lucide lucide-compass w-5 h-5 text-red-600 flex-shrink-0"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                            <h3 class="font-display text-lg font-semibold text-gray-900">Scouting</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-justify">
+                            My commitment to scouting is an important part of my development. With over 12 years in scout groups, I have developed my autonomy and sense of responsibility.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed mt-3 text-justify">
+                            Currently, I am a <strong>leader in a scout troop in Toulouse</strong>. This role teaches me to manage a team, organize projects, and mentor young people, thereby developing leadership and teaching skills. It also includes budget management and logistics.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="globe" class="lucide lucide-globe w-5 h-5 text-red-600 flex-shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                            <h3 class="font-display text-lg font-semibold text-gray-900">Climate Fresk</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-justify">
+                            From the first year of my engineering program, I had the opportunity to participate in a "Climate Fresk" workshop, in collaboration with other students from ENSEEIHT. This allowed us to become aware of the climate challenges of our time and the issues we will have to face as future engineers.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="scale" class="lucide lucide-scale w-5 h-5 text-red-600 flex-shrink-0"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"></path><path d="M7 21h10"></path><path d="M12 3v18"></path><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"></path></svg>
+                            <h3 class="font-display text-lg font-semibold text-gray-900">The Trial of King Kong</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-justify">
+                            Also in my first year of engineering school, I was able to attend and participate in the interactive play "The Trial of King Kong," which deals with gender-based and sexual violence (VSS) and its consequences.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="lightbulb" class="lucide lucide-lightbulb w-5 h-5 text-red-600 flex-shrink-0"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg>
+                            <h3 class="font-display text-lg font-semibold text-gray-900">"Futur Proche" Festival</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-justify">
+                            ENSEEIHT and the various universities in Toulouse allowed me to participate in the "Futur Proche" (Near Future) festival, which included numerous conferences, workshops, and presentations... raising awareness about climate issues, particularly from a scientific perspective through various innovations, both existing and in development.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities -->
+        <section id="activities" class="py-16 md:py-24 bg-gray-50 fade-in-section is-visible">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Activities</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Passions outside of engineering.</p>
+
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="music" class="lucide lucide-music w-5 h-5 text-red-600 flex-shrink-0"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+                        <h3 class="font-display text-xl font-semibold text-gray-900">Music</h3>
+                    </div>
+                    <div class="divide-y divide-gray-200">
+                        <div class="pb-5">
+                            <h4 class="text-base font-semibold text-gray-800 mb-1">Trumpet</h4>
+                            <p class="text-gray-700 text-sm leading-relaxed text-justify">3rd cycle level after 10 years at the Conservatory. I had the opportunity to participate in various orchestras, exploring varied repertoires (classical, jazz...), which taught me rigor and teamwork.</p>
+                        </div>
+                        <div class="py-5">
+                            <h4 class="text-base font-semibold text-gray-800 mb-1">Piano / Organ</h4>
+                            <p class="text-gray-700 text-sm leading-relaxed text-justify">Self-taught, I learned piano and then organ alongside my trumpet years. This now allows me to accompany singers or other instrumentalists during events or concerts.</p>
+                        </div>
+                        <div class="pt-5">
+                            <h4 class="text-base font-semibold text-gray-800 mb-1">Singing</h4>
+                            <p class="text-gray-700 text-sm leading-relaxed text-justify">Chorister (bass and tenor sections). My interest in conducting led me to be the <strong>conductor of a choir of 9 high school students</strong>, a formative experience in project management and team leadership. I am currently a member of a choir in Toulouse as a tenor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-16 md:py-24 bg-white fade-in-section is-visible">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Contact</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Feel free to reach out for an internship, a project, or just a chat.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+                    <div class="bg-white border border-gray-200 rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+                        <div class="flex justify-center items-center w-14 h-14 bg-red-50 text-red-600 rounded-full mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-7 h-7"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                        </div>
+                        <h3 class="font-display text-lg font-semibold text-gray-900 mb-2">Email</h3>
+                        <a href="mailto:a2lecluse@gmail.com" class="text-red-600 hover:text-red-800 break-all text-sm">a2lecluse@gmail.com</a>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+                        <div class="flex justify-center items-center w-14 h-14 bg-red-50 text-red-600 rounded-full mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" class="lucide lucide-phone w-7 h-7"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <h3 class="font-display text-lg font-semibold text-gray-900 mb-2">Phone</h3>
+                        <a href="tel:+33616682261" class="text-gray-700 hover:text-gray-900 text-sm">06 16 68 22 61</a>
+                    </div>
+                    <div class="group relative bg-white border border-gray-200 rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+                        <div class="flex justify-center items-center w-14 h-14 bg-red-50 text-red-600 rounded-full mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin w-7 h-7"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </div>
+                        <h3 class="font-display text-lg font-semibold text-gray-900 mb-2">LinkedIn</h3>
+                        <p class="text-red-600 group-hover:text-red-800 transition-colors text-sm">My LinkedIn Profile</p>
+                        <a href="https://www.linkedin.com/in/alexis-de-l%C3%A9cluse-3b9436353/" target="_blank" rel="noopener noreferrer" class="absolute inset-0 rounded-xl">
+                            <span class="sr-only">My LinkedIn Profile</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-gray-200 bg-white">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400 text-sm">
+            <p>© 2026 Alexis de Lécluse.</p>
+            <p class="mt-1">Contact: <a href="mailto:a2lecluse@gmail.com" class="hover:text-red-600 transition-colors">a2lecluse@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="role-modal" class="fixed inset-0 z-50 flex items-center justify-center p-6 transition-opacity duration-300 ease-in-out opacity-0 pointer-events-none">
+        <div id="modal-overlay" class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
+        <div id="modal-content" class="relative bg-white rounded-xl shadow-2xl max-w-2xl w-full p-5 sm:p-8 z-10 mx-auto transition-all duration-300 ease-in-out opacity-0 scale-95">
+            <button id="modal-close-btn" aria-label="Close profile modal" class="absolute top-4 right-4 text-gray-400 hover:text-red-600 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" class="lucide lucide-x w-6 h-6"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+            </button>
+            <h3 id="modal-title" class="font-display text-2xl font-bold text-gray-900 mb-4">Clémence Lanfranchi - AI Scientist</h3>
+            <img id="modal-image" src="assets/clemence_lanfranchi.jpeg" alt="" aria-hidden="true" class="w-24 h-24 rounded-full mx-auto my-4 border-4 border-gray-100 shadow-md">
+            <h4 class="font-display text-lg font-semibold text-red-600 mt-6 mb-2">Detailed Profile</h4>
+            <p id="modal-profile" class="text-gray-700 leading-relaxed whitespace-pre-wrap text-justify">Clémence Lanfranchi is an AI Scientist at Mistral AI. Her academic background is exceptional, featuring a 'Diplôme d'ingénieur' from École Polytechnique and a Master's degree in Data Science from ETH Zürich. Her career includes significant R&amp;D experience at Oracle Labs and research-focused roles during her studies, such as her Master's Thesis at ETH and a research project with DS3Lab/Ebay.</p>
+            <h4 class="font-display text-lg font-semibold text-red-600 mt-6 mb-2">My Interest</h4>
+            <p id="modal-interest" class="text-gray-700 leading-relaxed whitespace-pre-wrap text-justify">Clémence's profile is a powerful model for combining a prestigious French engineering degree (Polytechnique) with high-level international specialization (ETH Zürich). Her mobility to Switzerland for her Master's degree clearly paved the way for top-tier R&amp;D roles at Oracle and now Mistral AI. This 'French Grande École + international Master's' path is a highly effective strategy that I will strongly consider for my own.</p>
+        </div>
+    </div>
+
+    <script src="assets/main.js"></script>
+
+
+</body></html>
