@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexis de Lécluse - Portfolio Sciences du Numérique ENSEEIHT</title>
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <meta name="description" content="Portfolio d'Alexis de Lécluse, étudiant en Sciences du Numérique à l'ENSEEIHT. Découvrez mes projets d'ingénierie, mes expériences à l'international et mes ambitions professionnelles.">
+    <meta property="og:title" content="Alexis de Lécluse – Portfolio Sciences du Numérique ENSEEIHT">
+    <meta property="og:description" content="Projets d'ingénierie, mobilité internationale, engagement citoyen – découvrez le portfolio d'Alexis de Lécluse, étudiant à l'ENSEEIHT.">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://alexisdelecluse.fr/index-fr.html">
+    <link rel="alternate" hreflang="en" href="https://alexisdelecluse.fr/">
+    <link rel="alternate" hreflang="fr" href="https://alexisdelecluse.fr/index-fr.html">
+    <link rel="alternate" hreflang="x-default" href="https://alexisdelecluse.fr/">
+    <meta property="og:url" content="https://alexisdelecluse.fr/index-fr.html">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="en_GB">
+    <meta property="og:image" content="https://alexisdelecluse.fr/assets/photo-alexis.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alexis de Lécluse – Portfolio">
+    <meta name="twitter:description" content="Projets d'ingénierie, mobilité internationale, engagement citoyen – découvrez le portfolio d'Alexis de Lécluse.">
+    <link rel="stylesheet" href="assets/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@0.303.0/dist/umd/lucide.min.js"></script>
+</head>
+<body class="antialiased">
+
+    <header class="bg-white/95 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-900 tracking-tight font-display">
+                Alexis de Lécluse
+            </a>
+            <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
+                <a href="#" class="text-gray-600 hover:text-red-600 transition-colors">Accueil</a>
+                <a href="#engineering" class="text-gray-600 hover:text-red-600 transition-colors">Ingénierie</a>
+                <a href="#career" class="text-gray-600 hover:text-red-600 transition-colors">Carrière</a>
+                <a href="#mobility" class="text-gray-600 hover:text-red-600 transition-colors">Mobilité</a>
+                <a href="#engagement" class="text-gray-600 hover:text-red-600 transition-colors">Engagement</a>
+                <a href="#activities" class="text-gray-600 hover:text-red-600 transition-colors">Activités</a>
+                <a href="#contact" class="text-gray-600 hover:text-red-600 transition-colors">Contact</a>
+                <a href="index.html" class="font-semibold text-red-600 border border-red-600 px-3 py-0.5 rounded-full hover:bg-red-600 hover:text-white transition-colors text-sm">EN</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none" aria-label="Ouvrir le menu">
+                <svg id="icon-burger" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="md:hidden border-b border-gray-200">
+            <div class="px-6 pb-4 pt-2 space-y-2">
+                <a href="#" class="block text-gray-600 hover:text-red-600">Accueil</a>
+                <a href="#engineering" class="block text-gray-600 hover:text-red-600">Ingénierie</a>
+                <a href="#career" class="block text-gray-600 hover:text-red-600">Carrière</a>
+                <a href="#mobility" class="block text-gray-600 hover:text-red-600">Mobilité</a>
+                <a href="#engagement" class="block text-gray-600 hover:text-red-600">Engagement</a>
+                <a href="#activities" class="block text-gray-600 hover:text-red-600">Activités</a>
+                <a href="#contact" class="block text-gray-600 hover:text-red-600">Contact</a>
+                <a href="index.html" class="block font-semibold text-red-600 hover:text-red-800">English version</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Accueil -->
+        <section id="welcome" class="hero-split">
+            <div class="diagonal-divider"></div>
+
+            <div class="hero-text-side">
+                <div class="max-w-sm">
+                    <h1 class="hero-text-name font-display text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 leading-tight">
+                        Alexis<br>de Lécluse
+                    </h1>
+                    <p class="hero-text-desc text-gray-500 text-lg mt-5 leading-relaxed">
+                        Étudiant ingénieur à l'ENSEEIHT, je rapproche la vision par ordinateur du terrain en l'embarquant sur des systèmes embarqués.
+                    </p>
+                    <div class="hero-text-meta mt-8 space-y-3 text-sm">
+                        <div class="flex items-center gap-3 text-gray-400">
+                            <div class="w-1.5 h-1.5 rounded-full bg-red-500"></div>
+                            <span>IA embarquée &amp; Vision par ordinateur</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-gray-400">
+                            <div class="w-1.5 h-1.5 rounded-full bg-red-500"></div>
+                            <span>ENSEEIHT, Toulouse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-photo-side">
+                <div class="photo-shadow"></div>
+                <div class="photo-frame">
+                    <img src="./assets/photo-alexis.jpg" alt="Portrait d'Alexis de Lécluse, étudiant en Sciences du Numérique à l'ENSEEIHT">
+                    <div class="photo-scan"></div>
+                    <div class="focus-bracket"><span></span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ingénierie -->
+        <section id="engineering" class="py-16 md:py-24 bg-gray-50 fade-in-section">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Ingénierie</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Projets et compétences de mon cursus Sciences du Numérique.</p>
+
+                <div class="max-w-6xl mx-auto mb-16">
+                    <h3 class="font-display text-2xl font-bold text-gray-900 mb-10 text-center">Compétences</h3>
+                    <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-6 sm:gap-x-10 lg:gap-x-14 gap-y-12 justify-items-center sm:justify-items-start">
+
+                        <div>
+                            <h4 class="text-sm font-semibold text-gray-400 mb-5 pb-2 border-b border-gray-200">Langages</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-6 h-6 flex-shrink-0" alt="Python">
+                                    <span class="text-sm text-gray-700">Python</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" class="w-6 h-6 flex-shrink-0" alt="C++">
+                                    <span class="text-sm text-gray-700">C++ / Arduino</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="w-6 h-6 flex-shrink-0" alt="Java">
+                                    <span class="text-sm text-gray-700">Java</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="w-6 h-6 flex-shrink-0" alt="SQL">
+                                    <span class="text-sm text-gray-700">SQL</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ocaml/ocaml-original.svg" class="w-6 h-6 flex-shrink-0" alt="OCaml">
+                                    <span class="text-sm text-gray-700">OCaml</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="text-sm font-semibold text-gray-400 mb-5 pb-2 border-b border-gray-200">Traitement de données</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" class="w-6 h-6 flex-shrink-0" alt="Matlab">
+                                    <span class="text-sm text-gray-700">Matlab</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" class="w-6 h-6 flex-shrink-0" alt="NumPy">
+                                    <span class="text-sm text-gray-700">NumPy</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" class="w-6 h-6 flex-shrink-0" alt="Pandas">
+                                    <span class="text-sm text-gray-700">Pandas</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" class="w-6 h-6 flex-shrink-0" alt="Scikit-learn">
+                                    <span class="text-sm text-gray-700">Scikit-learn</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" class="w-6 h-6 flex-shrink-0" alt="PyTorch">
+                                    <span class="text-sm text-gray-700">PyTorch</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="text-sm font-semibold text-gray-400 mb-5 pb-2 border-b border-gray-200">Outils &amp; Systèmes</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" class="w-6 h-6 flex-shrink-0" alt="Windows">
+                                    <span class="text-sm text-gray-700">Windows</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="w-6 h-6 flex-shrink-0" alt="Linux">
+                                    <span class="text-sm text-gray-700">Linux</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-6 h-6 flex-shrink-0" alt="Git">
+                                    <span class="text-sm text-gray-700">Git</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/claude/2D2D2D" class="w-6 h-6 flex-shrink-0" alt="Claude Code">
+                                    <span class="text-sm text-gray-700">Claude Code</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <img src="https://cdn.simpleicons.org/githubcopilot/2D2D2D" class="w-6 h-6 flex-shrink-0" alt="GitHub Copilot">
+                                    <span class="text-sm text-gray-700">GitHub Copilot</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="text-sm font-semibold text-gray-400 mb-5 pb-2 border-b border-gray-200">Soft Skills</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <i data-lucide="users" class="w-6 h-6 flex-shrink-0 text-gray-400"></i>
+                                    <span class="text-sm text-gray-700">Travail en équipe</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <i data-lucide="clipboard-list" class="w-6 h-6 flex-shrink-0 text-gray-400"></i>
+                                    <span class="text-sm text-gray-700">Gestion de projet</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <i data-lucide="lightbulb" class="w-6 h-6 flex-shrink-0 text-gray-400"></i>
+                                    <span class="text-sm text-gray-700">Créativité</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <i data-lucide="puzzle" class="w-6 h-6 flex-shrink-0 text-gray-400"></i>
+                                    <span class="text-sm text-gray-700">Résolution de problèmes</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <i data-lucide="refresh-cw" class="w-6 h-6 flex-shrink-0 text-gray-400"></i>
+                                    <span class="text-sm text-gray-700">Adaptabilité</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <h3 class="font-display text-2xl font-bold text-gray-900 mt-16 mb-8 text-center">Projets</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+                    <!-- Aeris - Hackathon AGIR -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet_aeris.jpg" alt="Carte du dispositif de drones Aeris avec les zones de couverture" class="w-full aspect-video object-cover object-top bg-gray-100 border-b border-gray-100">
+                        <div class="p-6">
+                            <span class="inline-flex items-center gap-1.5 bg-red-50 text-red-700 border border-red-200 text-xs font-semibold px-3 py-1 rounded-full mb-3"><i data-lucide="trophy" class="w-3.5 h-3.5"></i>Hackathon AGIR, 2e place</span>
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Aeris : coordination de drones</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                Avec une équipe de six étudiants de l'ENSEEIHT, nous avons terminé 2e du hackathon AGIR, organisé avec la Région de gendarmerie d'Occitanie (octobre 2026). En une journée, nous avons conçu un outil d'aide à la décision pour dimensionner et coordonner l'emploi des drones en opération de gendarmerie : l'opérateur trace la zone, les secteurs prioritaires et interdits, et Aeris propose des placements optimisés, sépare l'espace aérien et recalcule le dispositif en temps réel lorsqu'un drone devient indisponible. En tant que lead architecture et intégration, j'ai mis en place le monorepo, la CI, les contrats entre modules et l'API.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">TypeScript</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">React</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Leaflet</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Fastify</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">WebSocket</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Zod</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Optimisation</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Travail d'équipe</span>
+                            </div>
+                            <div class="mt-6 flex justify-center">
+                                <a href="https://github.com/Tug2co/aeris" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 font-medium text-sm py-2.5 px-8 rounded-lg transition-colors">
+                                    <i data-lucide="github" class="w-4 h-4"></i>Voir sur GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Système de défense à guidage laser par drone -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet_defense.svg" alt="Affichage de tracking par vision : un drone dans une boîte de détection" class="w-full aspect-video object-cover bg-gray-900 border-b border-gray-100">
+                        <div class="p-6">
+                            <span class="inline-flex items-center gap-1.5 bg-amber-50 text-amber-700 border border-amber-200 text-xs font-semibold px-3 py-1 rounded-full mb-3"><span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>En cours</span>
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Système de défense à guidage laser par drone</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                Étude d'ingénierie en cours, réalisée pour une start-up de la défense via N7 Consulting, la Junior-Entreprise de l'ENSEEIHT. Notre équipe travaille sur un système de défense à guidage laser par drone, et je suis en charge du développement des algorithmes de vision par ordinateur pour la détection et le tracking de cible. Pour des raisons de confidentialité, les détails du projet seront partagés ultérieurement.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Junior-Entreprise</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Défense</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Drones</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Guidage Laser</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Vision par Ordinateur</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Tracking de Cible</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Étude d'Ingénierie</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TrackMyApps -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet_trackmyapps.png" alt="Aperçu du tableau de bord TrackMyApps" class="w-full aspect-video object-cover object-top bg-gray-100 border-b border-gray-100">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">TrackMyApps</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                TrackMyApps est une application SaaS, désormais en ligne, qui aide les étudiants à centraliser et suivre leurs candidatures de stage, d'alternance ou d'emploi. En plus d'un tableau Kanban, de rappels et relances (export vers l'agenda, emails de rappel quotidiens), d'un stockage privé des documents et de statistiques, elle propose un simulateur d'entretien par IA (Google Gemini) en mode chat ou vocal, conclu par un bilan noté ; chaque utilisateur y branche sa propre clé API Gemini, stockée chiffrée. Un compte démo en un clic permet de la tester sans inscription. Le backend repose sur Node.js, Express, TypeScript, Prisma et PostgreSQL en fonctions serverless sur Vercel, et le frontend sur React, Vite, Tailwind CSS et shadcn/ui. Le code est open source (licence MIT) et chaque pull request passe par une CI GitHub Actions (lint, vérification des types et tests).
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Node.js</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Express</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">TypeScript</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Prisma</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">PostgreSQL</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">React</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Tailwind CSS</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">IA Gemini</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Vercel</span>
+                            </div>
+                            <div class="mt-6 flex flex-wrap justify-center gap-3">
+                                <a href="https://track-my-apps.alexisdelecluse.fr/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 font-medium text-sm py-2.5 px-8 rounded-lg transition-colors">
+                                    Visiter TrackMyApps
+                                </a>
+                                <a href="https://github.com/A2Lec/TrackMyApps" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 font-medium text-sm py-2.5 px-8 rounded-lg transition-colors">
+                                    <i data-lucide="github" class="w-4 h-4"></i>Voir sur GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mass Creator -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet_masscreator.png" alt="Aperçu de l'application web Mass Creator" class="w-full aspect-video object-cover object-top bg-gray-100 border-b border-gray-100">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Mass Creator</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                Commandée par la Paroisse étudiante de Toulouse, Mass Creator aide les chorales et les équipes liturgiques à préparer leurs célébrations. Elle rassemble une bibliothèque de plus de 500 chants avec leurs partitions, permet de composer une messe pour chaque moment liturgique (ou d'en générer une automatiquement selon le temps liturgique) et de la partager via un lien court. Les partitions sont analysées par IA, et toutes celles d'une messe peuvent être fusionnées en un seul PDF avec un sommaire cliquable. Installable en PWA et utilisable hors ligne, elle s'appuie sur des routes API sécurisées (validation, limitation de débit, base en lecture seule depuis le navigateur) et une CI qui exécute lint, vérification des types, tests et build.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Next.js</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">TypeScript</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Supabase</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">IA Gemini</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">PWA</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Vitest</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">GitHub Actions</span>
+                            </div>
+                            <div class="mt-6 flex justify-center">
+                                <a href="https://mass-creator.vercel.app/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white hover:bg-gray-100 text-gray-700 border border-gray-300 font-medium text-sm py-2.5 px-8 rounded-lg transition-colors">
+                                    Visiter Mass Creator
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modèle de Prédiction Financière -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet-xgboost.jpg" alt="Modèle de Prédiction Financière" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Modèle de Prédiction Financière</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                Développement d'un modèle de machine learning pour prédire l'évolution d'indices boursiers. Le projet a impliqué la collecte de données, l'ingénierie de variables et l'entraînement de plusieurs modèles (Random Forest, XGBoost) pour comparer leurs performances dans la prévision des tendances de marché.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Python</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">RandomForest</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">XGBoost</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Scikit-learn</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Suiveur Solaire -->
+                    <div class="project-card bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src="./assets/projet_arduino.jpg" alt="Suiveur Solaire Arduino" class="w-full h-48 object-contain bg-gray-100">
+                        <div class="p-6">
+                            <h4 class="font-display text-xl font-semibold text-gray-900 mb-2">Suiveur Solaire (Arduino)</h4>
+                            <p class="text-gray-600 mb-4 text-sm leading-relaxed text-justify">
+                                Projet d'un suiveur solaire réalisé en fin de classe préparatoire : l'objectif est d'orienter un panneau solaire vers la source lumineuse la plus puissante autour du suiveur, avec deux degrés de liberté. L'orientation est contrôlée par une carte Arduino, commandant deux servomoteurs, d'après les données de quatre photorésistances placées avec le panneau solaire.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Collaboration</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Arduino</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">C++</span>
+                                <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Découpe laser</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Carrière -->
+        <section id="career" class="py-16 md:py-24 bg-white fade-in-section">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Carrière</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Documents professionnels et expériences passées.</p>
+
+                <div class="flex flex-col sm:flex-row flex-wrap gap-2.5 sm:gap-4 justify-center items-center mb-16">
+                    <a href="./assets/CV_Alexis_de_Lecluse_EN.pdf" download class="bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-sm text-sm sm:text-base w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="download" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+                        <span>Télécharger CV (Anglais)</span>
+                    </a>
+                    <a href="./assets/CV_Alexis_de_Lecluse_FR.pdf" download class="bg-gray-700 hover:bg-gray-800 text-white font-medium py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-sm text-sm sm:text-base w-full sm:w-auto" target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="download" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+                        <span>Télécharger CV (Français)</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/alexis-de-l%C3%A9cluse-3b9436353/" target="_blank" rel="noopener noreferrer" class="bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors flex items-center justify-center space-x-2 shadow-sm text-sm sm:text-base w-full sm:w-auto">
+                        <i data-lucide="linkedin" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+                        <span>Mon Profil LinkedIn</span>
+                    </a>
+                </div>
+
+                <h3 class="font-display text-2xl font-bold text-gray-900 mb-6 text-center">Expériences Passées</h3>
+                <div class="max-w-2xl mx-auto bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                    <div class="p-4 sm:p-6">
+                        <!-- Delair -->
+                        <div class="flex items-start gap-3 sm:gap-4 mb-2">
+                            <div class="flex-shrink-0">
+                                <img src="https://www.google.com/s2/favicons?domain=delair.aero&sz=64" alt="Delair" class="w-12 h-12 rounded-lg object-contain border border-gray-100 p-1">
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1">
+                                    <div>
+                                        <h4 class="text-base sm:text-lg font-semibold text-gray-900">Stage ingénieur IA embarquée</h4>
+                                        <p class="text-sm font-medium text-red-600">Delair, Labège, Occitanie</p>
+                                    </div>
+                                    <span class="text-sm text-gray-400 shrink-0">Juin–Juil. 2026</span>
+                                </div>
+                                <p class="text-gray-700 leading-relaxed mb-3 text-sm text-justify">
+                                    Benchmarking de modèles de vision type YOLO sur différents NPU (Pi AI camera et iMX95) :
+                                </p>
+                                <ul class="list-disc list-inside text-gray-700 space-y-1.5 ml-2 text-sm">
+                                    <li><strong>Optimisation de Modèles YOLOv8/v11 :</strong> fine-tuning et quantification INT8</li>
+                                    <li><strong>Chirurgie de graphe :</strong> modification d'un YOLOv8n pour maximiser ses performances sur l'iMX95 (36 FPS)</li>
+                                    <li><strong>Linux Embarqué :</strong> compilation via Yocto d'un OS sur mesure</li>
+                                    <li><strong>Monitoring temps réel :</strong> FPS, latence NPU, charge CPU, température — architecture modulaire</li>
+                                </ul>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Edge AI</span>
+                                    <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Vision par ordinateur</span>
+                                    <span class="bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">Systèmes embarqués</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <!-- Lynred -->
+                        <div class="flex items-start gap-3 sm:gap-4 mb-2">
+                            <div class="flex-shrink-0">
+                                <img src="https://www.google.com/s2/favicons?domain=lynred.com&sz=64" alt="Lynred" class="w-12 h-12 rounded-lg object-contain border border-gray-100 p-1">
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2 gap-1">
+                                    <div>
+                                        <h4 class="text-base sm:text-lg font-semibold text-gray-900">Stage ouvrier</h4>
+                                        <p class="text-sm font-medium text-red-600">Lynred, Grenoble</p>
+                                    </div>
+                                    <span class="text-sm text-gray-400 shrink-0">Mai–Juin 2025</span>
+                                </div>
+                                <p class="text-gray-700 leading-relaxed text-sm text-justify">
+                                    Stage réalisé à la fin de mes deux ans en Prépa INP chez Lynred, leader européen de capteurs infrarouges, principal fournisseur de Safran et Thalès. J'étais opérateur en salle blanche dans la partie packaging (assemblage des capteurs). J'ai pu découvrir le fonctionnement d'une entreprise, ainsi que le rôle des ingénieurs et opérateurs dans un contexte de production industrielle.
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <!-- Librairie Agapè -->
+                        <div class="flex items-start gap-3 sm:gap-4">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 rounded-lg bg-gray-800 text-white text-xl font-bold flex items-center justify-center">A</div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1">
+                                    <div>
+                                        <h4 class="text-base sm:text-lg font-semibold text-gray-900">Stage d'observation</h4>
+                                        <p class="text-sm font-medium text-red-600">Librairie Agapè, Orléans</p>
+                                    </div>
+                                    <span class="text-sm text-gray-400 shrink-0">Déc. 2019</span>
+                                </div>
+                                <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1 text-sm">
+                                    <li>Découverte du fonctionnement d'une entreprise</li>
+                                    <li>Réception des commandes</li>
+                                    <li>Vente</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobilité -->
+        <section id="mobility" class="py-16 md:py-24 bg-gray-50 fade-in-section">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Mobilité</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Compétences linguistiques et aspirations à l'international.</p>
+
+                <div class="space-y-10">
+                    <div>
+                        <div class="flex items-center gap-3 mb-4">
+                            <i data-lucide="languages" class="w-5 h-5 text-red-600 flex-shrink-0"></i>
+                            <h3 class="font-display text-xl font-semibold text-gray-900">Langues</h3>
+                        </div>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 ml-1">
+                            <li><strong>Anglais :</strong> Niveau C1 — Prêt pour une mobilité.</li>
+                            <li><strong>Allemand :</strong> Niveau B1 — Connaissances solides.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-4">
+                            <i data-lucide="plane" class="w-5 h-5 text-red-600 flex-shrink-0"></i>
+                            <h3 class="font-display text-xl font-semibold text-gray-900">Projets de Mobilité</h3>
+                        </div>
+                        <div class="space-y-3">
+                            <p class="text-gray-700 leading-relaxed text-justify">
+                                Mon objectif principal est de réaliser un semestre ou une année de césure à l'étranger pour approfondir mes compétences en science des données et en intelligence artificielle. Je suis particulièrement attiré par l'écosystème nord-américain, reconnu pour son excellence académique et son dynamisme en matière d'innovation.
+                            </p>
+                            <p class="text-gray-700 leading-relaxed text-justify">
+                                <strong>Destinations visées :</strong> Je cible principalement des universités aux <strong>États-Unis</strong> et au <strong>Canada</strong> (notamment le Québec) proposant des programmes de pointe en IA, Machine Learning et Traitement du Langage Naturel (NLP).
+                            </p>
+                            <p class="text-gray-700 leading-relaxed text-justify">
+                                Cette expérience serait l'occasion idéale non seulement d'acquérir une expertise technique de haut niveau, mais aussi de m'immerger dans une culture de recherche et développement différente et de perfectionner mon anglais dans un contexte professionnel et académique.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Engagement -->
+        <section id="engagement" class="py-16 md:py-24 bg-white fade-in-section">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Engagement</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Implication associative et communautaire.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <i data-lucide="compass" class="w-5 h-5 text-red-600 flex-shrink-0"></i>
+                            <h3 class="font-display text-lg font-semibold text-gray-900">Scoutisme</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-justify">
+                            Mon engagement dans le scoutisme est une part importante de ma formation. Fort de plus de 12 années dans des groupes scouts, j'ai pu développer mon autonomie et mon sens des responsabilités.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed mt-3 text-justify">
+                            Actuellement, je suis <strong>chef dans une troupe de scouts à Toulouse</strong>. Ce rôle m'apprend à gérer une équipe, à organiser des projets et à encadrer des jeunes, développant ainsi des compétences en leadership et en pédagogie. Cela inclut également la gestion de budgets et la logistique.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <i data-lucide="globe" class="w-5 h-5 text-red-600 flex-shrink-0"></i>
+                            <h3 class="font-display text-lg font-semibold text-gray-900">Fresque du Climat</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-justify">
+                            Dès la première année de mon cycle ingénieur, j'ai eu l'occasion de réaliser une fresque du climat, en collaboration avec d'autres élèves de l'ENSEEIHT. Cela nous a permis de prendre conscience des enjeux climatiques de notre époque et des défis que nous aurons à relever en tant que futurs ingénieurs.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <i data-lucide="scale" class="w-5 h-5 text-red-600 flex-shrink-0"></i>
+                            <h3 class="font-display text-lg font-semibold text-gray-900">Procès de King Kong</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-justify">
+                            Également en première année d'école d'ingénieur, j'ai pu assister et participer à la pièce de théâtre interactive « Le procès de King Kong » portant sur les violences sexistes et sexuelles (VSS) et leurs conséquences.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <i data-lucide="lightbulb" class="w-5 h-5 text-red-600 flex-shrink-0"></i>
+                            <h3 class="font-display text-lg font-semibold text-gray-900">Festival « Futur Proche »</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed text-justify">
+                            L'ENSEEIHT ainsi que les différentes universités de Toulouse m'ont permis de participer au festival « Futur Proche », regroupant de nombreuses conférences, ateliers et présentations sensibilisant sur les enjeux climatiques, notamment du point de vue scientifique à travers les différentes innovations apportées ou en cours de développement.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Activités -->
+        <section id="activities" class="py-16 md:py-24 bg-gray-50 fade-in-section">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Activités</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">Passions en dehors de l'ingénierie.</p>
+
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <i data-lucide="music" class="w-5 h-5 text-red-600 flex-shrink-0"></i>
+                        <h3 class="font-display text-xl font-semibold text-gray-900">Musique</h3>
+                    </div>
+                    <div class="divide-y divide-gray-200">
+                        <div class="pb-5">
+                            <h4 class="text-base font-semibold text-gray-800 mb-1">Trompette</h4>
+                            <p class="text-gray-700 text-sm leading-relaxed text-justify">Niveau 3ème cycle après 10 ans en Conservatoire. J'ai eu l'opportunité de participer à différents orchestres, explorant des répertoires variés (classique, jazz...), ce qui m'a appris la rigueur et le travail en groupe.</p>
+                        </div>
+                        <div class="py-5">
+                            <h4 class="text-base font-semibold text-gray-800 mb-1">Piano / Orgue</h4>
+                            <p class="text-gray-700 text-sm leading-relaxed text-justify">Autodidacte, j'ai appris le piano puis l'orgue en parallèle de mes années de trompette. Cela me permet aujourd'hui d'accompagner des chanteurs ou autres instrumentistes lors d'évènements ou concerts.</p>
+                        </div>
+                        <div class="pt-5">
+                            <h4 class="text-base font-semibold text-gray-800 mb-1">Chant</h4>
+                            <p class="text-gray-700 text-sm leading-relaxed text-justify">Choriste (pupitre basse et ténor). Mon intérêt pour la direction m'a amené à être <strong>chef d'un chœur de 9 lycéens</strong>, une expérience formatrice en gestion de projet et en direction d'équipe. Je suis actuellement membre d'une chorale à Toulouse en tant que ténor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-16 md:py-24 bg-white fade-in-section">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-3 text-center">Contact</h2>
+                <p class="text-lg text-gray-500 mb-12 text-center">N'hésitez pas à me contacter pour un stage, un projet ou un simple échange.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+                    <div class="bg-white border border-gray-200 rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+                        <div class="flex justify-center items-center w-14 h-14 bg-red-50 text-red-600 rounded-full mx-auto mb-4">
+                            <i data-lucide="mail" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display text-lg font-semibold text-gray-900 mb-2">Email</h3>
+                        <a href="mailto:a2lecluse@gmail.com" class="text-red-600 hover:text-red-800 break-all text-sm">a2lecluse@gmail.com</a>
+                    </div>
+                    <div class="bg-white border border-gray-200 rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+                        <div class="flex justify-center items-center w-14 h-14 bg-red-50 text-red-600 rounded-full mx-auto mb-4">
+                            <i data-lucide="phone" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display text-lg font-semibold text-gray-900 mb-2">Téléphone</h3>
+                        <a href="tel:+33616682261" class="text-gray-700 hover:text-gray-900 text-sm">06 16 68 22 61</a>
+                    </div>
+                    <div class="group relative bg-white border border-gray-200 rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+                        <div class="flex justify-center items-center w-14 h-14 bg-red-50 text-red-600 rounded-full mx-auto mb-4">
+                            <i data-lucide="linkedin" class="w-7 h-7"></i>
+                        </div>
+                        <h3 class="font-display text-lg font-semibold text-gray-900 mb-2">LinkedIn</h3>
+                        <p class="text-red-600 group-hover:text-red-800 transition-colors text-sm">Mon profil LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/alexis-de-l%C3%A9cluse-3b9436353/" target="_blank" rel="noopener noreferrer" class="absolute inset-0 rounded-xl">
+                            <span class="sr-only">Mon profil LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-gray-200 bg-white">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400 text-sm">
+            <p>&copy; 2026 Alexis de Lécluse.</p>
+            <p class="mt-1">Contact : <a href="mailto:a2lecluse@gmail.com" class="hover:text-red-600 transition-colors">a2lecluse@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
